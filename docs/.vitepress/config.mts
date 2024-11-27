@@ -41,4 +41,5 @@ export default defineConfig({
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@asumo_1xts" }],
   ]
+  
 })
