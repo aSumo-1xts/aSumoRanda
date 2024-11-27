@@ -3,9 +3,20 @@
 /* 全体に適用 */
 :root {
     /* フォント */
-    --vp-font-family-base:      'Zen Kaku Gothic Antique',  serif;
-    --vp-font-family-mono:      'M PLUS 1 Code',            monospace;
+    --vp-font-family-base:  'Zen Kaku Gothic Antique',  serif;
+    --vp-font-family-mono:  'M PLUS 1 Code',            monospace;
+
+    /* ライトテーマ */
+    --sample-bg: #b5cacc;
 
     /* hero環境 */
     --vp-home-hero-name-color: #039393;
+}
+
+.dark {
+    --sample-bg: #1a1a1a;
+}
+
+body {
+    background-color: var(--sample-bg);
 }
