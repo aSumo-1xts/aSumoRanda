@@ -36,7 +36,7 @@ export default defineConfig({
     ["meta", { property: "og:site_name", content: "aSumoranda" }],
 
     ["meta", { property: "og:title", content: "Home" }],
-    ["meta", { property: "og:description", content: "ｱｽﾓﾗﾝﾀﾞへようこそ。" }],
+    ["meta", { property: "og:description", content: "ｱｽﾓランダへようこそ。" }],
 
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@asumo_1xts" }],
