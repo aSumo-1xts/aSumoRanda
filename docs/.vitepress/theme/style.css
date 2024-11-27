@@ -2,6 +2,10 @@
 
 /* 全体に適用 */
 :root {
+    /* フォント */
     --vp-font-family-base:      'Zen Kaku Gothic Antique',  serif;
     --vp-font-family-mono:      'M PLUS 1 Code',            monospace;
+
+    /* hero環境 */
+    --vp-home-hero-name-color: #039393;
 }
