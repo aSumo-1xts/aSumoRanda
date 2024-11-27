@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=BIZ+UDPGothic:wght@400;700&family=Kosugi&family=M+PLUS+1+Code:wght@100..700&family=Shippori+Antique+B1&family=Zen+Antique&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+/* 全体に適用 */
+:root {
+    --vp-font-family-base:      'Zen Kaku Gothic Antique',  serif;
+    --vp-font-family-mono:      'M PLUS 1 Code',            monospace;
+}

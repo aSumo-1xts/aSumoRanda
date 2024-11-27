@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "aSumoranda"
-  text: "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ"
-  tagline: My great project tagline
+  text: "Home"
+  tagline: ｱｽﾓのメモランダ、ｱｽﾓランダ
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

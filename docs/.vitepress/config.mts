@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 
   title: "aSumoranda",
-  description: "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ",
+  description: "ｱｽﾓのメモランダ、ｱｽﾓランダ",
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
