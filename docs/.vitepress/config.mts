@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 
   title: "aSumoranda",
-  description: "ｱｽﾓのメモランダ、ｱｽﾓランダ",
+  description: "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ",
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -36,10 +36,30 @@ export default defineConfig({
     ["meta", { property: "og:site_name", content: "aSumoranda" }],
 
     ["meta", { property: "og:title", content: "Home" }],
-    ["meta", { property: "og:description", content: "ｱｽﾓランダへようこそ。" }],
+    ["meta", { property: "og:description", content: "ｱｽﾓﾗﾝﾀﾞへようこそ。" }],
 
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@asumo_1xts" }],
-  ]
+  ],
+
+  transformHead({ assets }) {
+    // フォントファイル名を正規表現で指定
+    const FontFile = assets.find(file => /MoralerspaceNeon-Regular\.\w+\.woff2$/);
+    if (FontFile) {
+      return [
+        [
+          'link',
+          {
+            rel: 'preload',
+            href: FontFile,
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: ''
+          }
+        ]
+      ];
+    }
+    return [];
+  }
   
 })

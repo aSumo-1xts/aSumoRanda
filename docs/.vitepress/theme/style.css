@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=BIZ+UDPGothic:wght@400;700&family=Kosugi&family=M+PLUS+1+Code:wght@100..700&family=Shippori+Antique+B1&family=Zen+Antique&family=Zen+Kaku+Gothic+Antique&display=swap');
-
-/* 全体に適用 */
 :root {
-    /* フォント */
-    --vp-font-family-base:  'Zen Kaku Gothic Antique',  serif;
-    --vp-font-family-mono:  'M PLUS 1 Code',            monospace;
-
     /* ライトテーマ */
     --sample-bg: #b5cacc;
 
@@ -17,6 +10,15 @@
     --sample-bg: #1a1a1a;
 }
 
+@font-face {
+    font-family: 'Moralerspace Neon';
+    src: url('./fonts/MoralerspaceNeon-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: var(--sample-bg);
+
+    font-family: 'Moralerspace Neon',   sans-serif;
 }

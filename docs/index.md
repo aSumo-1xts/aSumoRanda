@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "aSumoranda"
   text: "Home"
-  tagline: ｱｽﾓのメモランダ、ｱｽﾓランダ
+  tagline: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
   actions:
     - theme: brand
       text: Markdown Examples
