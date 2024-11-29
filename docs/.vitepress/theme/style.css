@@ -1,9 +1,17 @@
 @font-face {
-    font-family: 'Moralerspace Neon';
-    src: url('./fonts/MoralerspaceNeonMJ-Regular.woff2') format('woff2');
+    font-family: "Harano Aji Gothic";
+    src: url('./fonts/HaranoAjiGothic-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Harano Aji Mincho";
+    src: url('./fonts/HaranoAjiMincho-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'Moralerspace Neon HW';
@@ -24,9 +32,13 @@
     --sample-bg: #000000;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Harano Aji Mincho', serif;
+}
+
 body {
     background-color: var(--sample-bg);
-    font-family: 'Moralerspace Neon', sans-serif;
+    font-family: 'Harano Aji Gothic', sans-serif;
 }
 
 code {

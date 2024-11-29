@@ -22,3 +22,21 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+::: code-group
+
+```c [hello.c]
+#include <stdio.h>
+
+int main() {
+  // こんにちは、世界！
+  printf("Hello, world!\n");
+  return 0;
+}
+```
+
+:::
+
+## 本文テスト
+
+こんにちは、世界！
