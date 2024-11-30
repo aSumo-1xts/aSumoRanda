@@ -44,7 +44,7 @@ export default defineConfig({
 
   transformHead({ assets }) {
     // フォントファイル名を正規表現で指定
-    const FontFile = assets.find(file => /(HaranoAjiGothic|HaranoAjiMincho|MoralerspaceNeonHW)-Regular\.\w+\.woff2$/);
+    const FontFile = assets.find(file => /(PlemolJPHS-Text|HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
     if (FontFile) {
       return [
         [

@@ -1,23 +1,16 @@
 @font-face {
     font-family: "Harano Aji Gothic";
     src: url('./fonts/HaranoAjiGothic-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
-    font-family: "Harano Aji Mincho";
-    src: url('./fonts/HaranoAjiMincho-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Plemol JP Text';
+    src: url('./fonts/PlemolJPHS-Text.woff2') format('woff2');
 }
-
 
 @font-face {
     font-family: 'Moralerspace Neon HW';
     src: url('./fonts/MoralerspaceNeonHW-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
 }
 
 :root {
@@ -32,8 +25,8 @@
     --sample-bg: #000000;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Harano Aji Mincho', serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plemol JP Text', serif;
 }
 
 body {
