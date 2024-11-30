@@ -7,25 +7,102 @@ export default defineConfig({
   description: "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ",
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: "/home.svg",
+    siteTitle: false,
+
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-    sidebar: [
       {
-        text: 'Examples',
+        text: 'Products',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            items: [
+              { text: 'Downpour', link: '/01/20241201' },
+              { text: 'Factory Head Fuzz', link: '/01/20241202' }
+            ]
+          }
+        ]
+      },
+      { text: 'Blog',
+        items: [
+          {
+            items: [
+              { text: '作ろう', link: '/02/20241203' },
+              { text: '弾こう', link: '/02/20241204' }
+            ]
+          }
         ]
       }
     ],
+
+    sidebar: {
+      // This sidebar gets displayed when a user
+      // is on `guide` directory.
+      '/01/': [
+        {
+          text: 'Products',
+          collapsed: false,
+          items: [
+            { text: 'Index', link: '/01/' },
+            { text: 'Downpour', link: '/01/20241201' },
+            { text: 'Factory Head Fuzz', link: '/01/20241202' }
+          ]
+        }
+      ],
+
+      // This sidebar gets displayed when a user
+      // is on `config` directory.
+      '/02/': [
+        {
+          text: 'Blog',
+          collapsed: false,
+          items: [
+            { text: 'Index', link: '/02/' },
+            { text: '作ろう', link: '/02/20241203' },
+            { text: '弾こう', link: '/02/20241204' }
+          ]
+        }
+      ]
+    },
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'youtube', link: 'https://www.youtube.com/@1xtelescope' },
+      { icon: 'twitter', link: 'https://x.com/asumo_1xts' },
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Evan You',
+    }
   },
 
+  editLink: {
+    pattern: 'https://github.com/aSumo-1xts/aSumoranda/tree/main/docs/:path',
+    text: 'Edit on GitHub'
+  },
+
+  lastUpdated: {
+    text: 'Last Updated:',
+    formatOptions: {
+      dateStyle: 'full',
+      timeStyle: 'medium'
+    }
+  },
+
+  search: {
+    provider: 'local'
+  },
+
+  docFooter: {
+    prev: false,
+    next: false
+  },
+
+  darkModeSwitchLabel: '🌓',
+  lightModeSwitchTitle: '光あれ！',
+  darkModeSwitchTitle: '闇あれ！',
+
+  // メタタグの設定
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { property: "og:image", content: "https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/public/cover.png?raw=true" }],
@@ -42,8 +119,8 @@ export default defineConfig({
     ["meta", { property: "twitter:site", content: "@asumo_1xts" }],
   ],
 
+  // フォントファイルのプリロード
   transformHead({ assets }) {
-    // フォントファイル名を正規表現で指定
     const FontFile = assets.find(file => /(PlemolJPHS-Text|HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
     if (FontFile) {
       return [
