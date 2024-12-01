@@ -54,10 +54,7 @@ export default defineConfig({
     }
   },
 
-  editLink: {
-    pattern: 'https://github.com/aSumo-1xts/aSumoranda/tree/main/docs/:path',
-    text: 'Edit on GitHub'
-  },
+  editLink: false,
 
   lastUpdated: {
     text: '最終更新:',
