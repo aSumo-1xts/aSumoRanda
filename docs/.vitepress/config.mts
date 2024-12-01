@@ -60,7 +60,7 @@ export default defineConfig({
   },
 
   lastUpdated: {
-    text: 'Last Updated:',
+    text: '最終更新:',
     formatOptions: {
       dateStyle: 'full',
       timeStyle: 'medium'
@@ -75,10 +75,6 @@ export default defineConfig({
     prev: false,
     next: false
   },
-
-  darkModeSwitchLabel: '🌓',
-  lightModeSwitchTitle: '光あれ！',
-  darkModeSwitchTitle: '闇あれ！',
 
   // メタタグの設定
   head: [
