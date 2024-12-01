@@ -16,6 +16,7 @@ export default defineConfig({
         items: [
           {
             items: [
+              { text: 'View All', link: '/01/' },
               { text: 'Downpour', link: '/01/20241201' },
               { text: 'Factory Head Fuzz', link: '/01/20241202' }
             ]
@@ -26,43 +27,20 @@ export default defineConfig({
         items: [
           {
             items: [
+              { text: 'View All', link: '/02/' },
               { text: '作ろう', link: '/02/20241203' },
               { text: '弾こう', link: '/02/20241204' }
             ]
           }
         ]
+      },
+      {
+        text: '1x telescope',
+        link: 'https://sites.google.com/view/1xtelescope',
+        target: '_self',
+        rel: 'sponsored'
       }
     ],
-
-    sidebar: {
-      // This sidebar gets displayed when a user
-      // is on `guide` directory.
-      '/01/': [
-        {
-          text: 'Products',
-          collapsed: false,
-          items: [
-            { text: 'Index', link: '/01/' },
-            { text: 'Downpour', link: '/01/20241201' },
-            { text: 'Factory Head Fuzz', link: '/01/20241202' }
-          ]
-        }
-      ],
-
-      // This sidebar gets displayed when a user
-      // is on `config` directory.
-      '/02/': [
-        {
-          text: 'Blog',
-          collapsed: false,
-          items: [
-            { text: 'Index', link: '/02/' },
-            { text: '作ろう', link: '/02/20241203' },
-            { text: '弾こう', link: '/02/20241204' }
-          ]
-        }
-      ]
-    },
 
     socialLinks: [
       { icon: 'youtube', link: 'https://www.youtube.com/@1xtelescope' },
@@ -71,8 +49,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You',
+      message: 'Some rights reserved.',
+      copyright: 'ｱｽﾓ 2024 | CC BY-SA 4.0',
     }
   },
 
