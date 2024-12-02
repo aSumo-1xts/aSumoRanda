@@ -67,6 +67,10 @@ export default defineConfig({
     next: false
   },
 
+  sitemap : {
+    hostname: "https://asumoranda.vercel.app"
+  },
+
   // メタタグの設定
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
