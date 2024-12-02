@@ -56,13 +56,7 @@ export default defineConfig({
 
   editLink: false,
 
-  lastUpdated: {
-    text: '最終更新:',
-    formatOptions: {
-      dateStyle: 'full',
-      timeStyle: 'medium'
-    }
-  },
+  lastUpdated: true,
 
   search: {
     provider: 'local'
