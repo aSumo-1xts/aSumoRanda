@@ -38,15 +38,15 @@ export default defineConfig({
       {
         text: '1x telescope',
         link: 'https://sites.google.com/view/1xtelescope',
-        target: '_self',
+        target: '_blank',
         rel: 'sponsored'
       }
     ],
 
     socialLinks: [
-      { icon: 'youtube', link: 'https://www.youtube.com/@1xtelescope' },
       { icon: 'twitter', link: 'https://x.com/asumo_1xts' },
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@1xtelescope' },
+      { icon: 'github', link: 'https://github.com/aSumo-1xts' },
     ],
 
     footer: {
@@ -55,21 +55,10 @@ export default defineConfig({
     }
   },
 
-  editLink: false,
-
   lastUpdated: true,
 
-  search: {
-    provider: 'local'
-  },
-
-  docFooter: {
-    prev: false,
-    next: false
-  },
-
   sitemap : {
-    hostname: "https://asumoranda.vercel.app"
+    hostname: "https://asumo-1xts.github.io/aSumoranda/"
   },
 
   // メタタグの設定
@@ -91,7 +80,7 @@ export default defineConfig({
 
   // フォントファイルのプリロード
   transformHead({ assets }) {
-    const FontFile = assets.find(file => /(Chalk-JP|HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
+    const FontFile = assets.find(file => /(HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
     if (FontFile) {
       return [
         [
