@@ -1,6 +1,6 @@
 {
   "name": "asumoranda",
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
