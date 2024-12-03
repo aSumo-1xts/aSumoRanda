@@ -52,6 +52,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
+      { icon: 'discord', link: 'https://discord.gg/DPArTErbtv' },
       { icon: 'twitter', link: 'https://x.com/asumo_1xts' },
       { icon: 'youtube', link: 'https://www.youtube.com/@1xtelescope' },
       { icon: 'github', link: 'https://github.com/aSumo-1xts' },
