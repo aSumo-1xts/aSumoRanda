@@ -7,6 +7,14 @@ export default defineConfig({
   title: "aSumoranda",
   description: "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ",
 
+  markdown: {
+    math: true,
+    lineNumbers: true,
+    image: {
+      lazyLoading: true
+    }
+  },
+
   themeConfig: {
     logo: "/home.svg",
     siteTitle: false,
