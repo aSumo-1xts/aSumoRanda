@@ -74,7 +74,7 @@ export default defineConfig({
 
   // メタタグの設定
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", href: "./favicon.ico" }],
     ["meta", { property: "og:image", content: "https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/public/cover.png?raw=true" }],
 
     ["meta", { property: "og:locale", content: "ja_JP" }],
