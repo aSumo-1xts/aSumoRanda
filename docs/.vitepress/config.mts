@@ -91,7 +91,7 @@ export default defineConfig({
 
   // フォントファイルのプリロード
   transformHead({ assets }) {
-    const FontFile = assets.find(file => /(PlemolJPHS-Text|HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
+    const FontFile = assets.find(file => /(Chalk-JP|HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
     if (FontFile) {
       return [
         [
