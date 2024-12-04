@@ -19,27 +19,26 @@ export default defineConfig({
     logo: "/home.svg",
     siteTitle: "Home",
 
+    sidebar: [
+      { text: 'エフェクター',
+        collapsed: true,
+        items: [
+          { text: 'Item A', link: '/item-a' },
+          { text: 'Item B', link: '/item-b' },
+        ]
+      },
+      { text: 'MIDIコントローラ',
+        collapsed: true,
+        items: [
+          { text: 'ArduinoでDAWからBPMを取得する', link: '/02/20241203' },
+          { text: 'Arduinoで理想のMIDIコントローラーを作る', link: '/02/20241204' },
+        ]
+      }
+    ],
+
     nav: [
-      { text: 'Products',
-        items: [
-          { items: [
-              { text: 'View All', link: '/01/' },
-              { text: 'Downpour', link: '/01/20241201' },
-              { text: 'Factory Head Fuzz', link: '/01/20241202' }
-            ]
-          }
-        ]
-      },
-      { text: 'Blog',
-        items: [
-          { items: [
-              { text: 'View All', link: '/02/' },
-              { text: '作ろう', link: '/02/20241203' },
-              { text: '弾こう', link: '/02/20241204' }
-            ]
-          }
-        ]
-      },
+      { text: 'エフェクター', link: '/01/' },
+      { text: 'MIDIコントローラ', link: '/02/' },
       { text: '1x telescope',
         link: 'https://sites.google.com/view/1xtelescope',
         target: '_blank',
