@@ -1,7 +1,8 @@
 import { createContentLoader, defineConfig, HeadConfig } from 'vitepress'
 import { SitemapStream } from 'sitemap'
-import { createWriteStream, link } from 'node:fs'
+import { createWriteStream} from 'node:fs'
 import { resolve } from 'node:path'
+import lightbox from "vitepress-plugin-lightbox"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,6 +16,10 @@ export default defineConfig({
     lineNumbers: true,
     image: {
       lazyLoading: true
+    },
+    config: (md) => {
+      // Use lightbox plugin
+      md.use(lightbox, {});
     }
   },
 

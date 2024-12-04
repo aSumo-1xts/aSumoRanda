@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "sitemap": "^8.0.0",
-    "vitepress": "^1.5.0"
+    "vitepress": "^1.5.0",
+    "vitepress-plugin-lightbox": "^1.0.2"
   },
   "dependencies": {
     "markdown-it-mathjax3": "^4.3.2"
