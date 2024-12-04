@@ -40,7 +40,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: "/home.svg",
-    siteTitle: "Home",
+    siteTitle: false,
 
     sidebar: [
       { text: 'エフェクター',
