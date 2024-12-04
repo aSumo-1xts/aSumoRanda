@@ -308,6 +308,13 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz#acad351d582d157bb145535db2a6ff53dd514b5c"
   integrity sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==
 
+"@iconify-json/carbon@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@iconify-json/carbon/-/carbon-1.2.4.tgz#3d0cdcb298fb723eb21e08bf88c61ae73537a8d2"
+  integrity sha512-DhW2jjMVGwV0DLHc0cmDYohdtGxMra8UuwgjHrryPy+rQX4gXhJwCBBVP2h2UG/92AoRCTn7zUJve4WvY5MLYg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/icon-park-outline@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@iconify-json/icon-park-outline/-/icon-park-outline-1.2.1.tgz#f7a3e17a7cc4cd593ad98a87b72a4f8c3dccb9ea"
@@ -381,6 +388,17 @@
     less "^4.2.1"
     vitepress "^1.5.0"
     vue "^3.5.13"
+
+"@nolebase/vitepress-plugin-enhanced-readabilities@^2.11.1":
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-enhanced-readabilities/-/vitepress-plugin-enhanced-readabilities-2.11.1.tgz#93b09af0d91206e4a369b2469810d8dddd2c0ca4"
+  integrity sha512-2iD/CsABrLKT2cP/2D7L9mof2re6lMZaGfwVlJbkOd1svHJFU9QmAqZ9QAR2iPWHutUGEemW4sgKUpDnFiIV8Q==
+  dependencies:
+    "@iconify-json/carbon" "^1.2.4"
+    "@iconify-json/icon-park-outline" "^1.2.1"
+    "@nolebase/ui" "^2.11.1"
+    less "^4.2.1"
+    vitepress "^1.5.0"
 
 "@nolebase/vitepress-plugin-git-changelog@^2.11.1":
   version "2.11.1"
