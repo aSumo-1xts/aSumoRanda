@@ -1,5 +1,6 @@
 ---
 layout: home
+gitChangelog: false
 
 hero:
   text: "その他の工作"

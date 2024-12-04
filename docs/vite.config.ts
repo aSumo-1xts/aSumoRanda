@@ -15,10 +15,14 @@ export default defineConfig(() => {
                         username: 'aSumo-1xts', 
                         mapByEmailAliases: ['1xtelescope@gmail.com'] 
                     } 
-                ] 
-            }), 
+                ],
+            },
+        ), 
             GitChangelogMarkdownSection({ 
-                exclude: (id) => id.endsWith('md'), 
+                sections: { 
+                    disableChangelog: true, 
+                    disableContributors: true, 
+                }, 
             }), 
         ]
     }
