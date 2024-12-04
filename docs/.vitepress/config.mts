@@ -3,6 +3,7 @@ import { SitemapStream } from 'sitemap'
 import { createWriteStream} from 'node:fs'
 import { resolve } from 'node:path'
 import lightbox from "vitepress-plugin-lightbox"
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,8 +19,8 @@ export default defineConfig({
       lazyLoading: true
     },
     config: (md) => {
-      // Use lightbox plugin
       md.use(lightbox, {});
+      md.use(tabsMarkdownPlugin)
     }
   },
 

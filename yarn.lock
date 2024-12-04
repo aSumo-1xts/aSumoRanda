@@ -1400,6 +1400,11 @@ vitepress-plugin-lightbox@^1.0.2:
     medium-zoom "^1.1.0"
     photoswipe "^5.4.4"
 
+vitepress-plugin-tabs@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/vitepress-plugin-tabs/-/vitepress-plugin-tabs-0.5.0.tgz#2b193a72ed36b9fcd63e3907d3044fe7b6cf3e4e"
+  integrity sha512-SIhFWwGsUkTByfc2b279ray/E0Jt8vDTsM1LiHxmCOBAEMmvzIBZSuYYT1DpdDTiS3SuJieBheJkYnwCq/yD9A==
+
 vitepress@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.5.0.tgz#61870b27dc9a580e46cea92989f64cdcb550dc23"
