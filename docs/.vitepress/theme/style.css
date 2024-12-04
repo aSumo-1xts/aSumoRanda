@@ -8,6 +8,8 @@
     src: url('./fonts/MoralerspaceNeonHW-Regular.woff2') format('woff2');
 }
 
+/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+
 :root {
     --vp-c-brand-1: #039393;
 
