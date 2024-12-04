@@ -9,15 +9,13 @@
 }
 
 :root {
-    /* ライトテーマ */
-    --sample-bg: #cce3e6;
-
-    /* hero環境 */
+    --sample-bg: #e5dfcf;
     --vp-home-hero-name-color: #039393;
 }
 
 .dark {
-    --sample-bg: #000000;
+    --sample-bg: #252525;
+    --vp-home-hero-name-color: #a8d9d5;
 }
 
 body {
