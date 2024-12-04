@@ -10,18 +10,34 @@
 
 :root {
     --vp-c-brand-1: #039393;
-    --sample-bg: #e5dfcf;
+
+    --vp-c-bg: #e5dfcf;
+    --vp-c-bg-alt: #ffffff;
+    --vp-c-bg-soft: #ffffff;
+
+    --vp-c-divider: #aaaaaa;
+    --vp-c-border: #aaaaaa;
+    --vp-c-gutter: #aaaaaa;
+
     --vp-home-hero-name-color: #039393;
 }
 
 .dark {
     --vp-c-brand-1: #a8d9d5;
-    --sample-bg: #252525;
+
+    --vp-c-bg: #252525;
+    --vp-c-bg-alt: #1a1a1a;
+    --vp-c-bg-soft: #1a1a1a;
+
+    --vp-c-divider: #5a5a5a;
+    --vp-c-border: #5a5a5a;
+    --vp-c-gutter: #5a5a5a;
+
     --vp-home-hero-name-color: #a8d9d5;
 }
 
 body {
-    background-color: var(--sample-bg);
+    background-color: var(--vp-c-bg);
     font-family: 'Harano Aji Gothic', sans-serif;
 }
 
