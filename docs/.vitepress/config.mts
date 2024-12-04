@@ -20,11 +20,9 @@ export default defineConfig({
     siteTitle: "Home",
 
     nav: [
-      {
-        text: 'Products',
+      { text: 'Products',
         items: [
-          {
-            items: [
+          { items: [
               { text: 'View All', link: '/01/' },
               { text: 'Downpour', link: '/01/20241201' },
               { text: 'Factory Head Fuzz', link: '/01/20241202' }
@@ -34,8 +32,7 @@ export default defineConfig({
       },
       { text: 'Blog',
         items: [
-          {
-            items: [
+          { items: [
               { text: 'View All', link: '/02/' },
               { text: '作ろう', link: '/02/20241203' },
               { text: '弾こう', link: '/02/20241204' }
@@ -43,8 +40,7 @@ export default defineConfig({
           }
         ]
       },
-      {
-        text: '1x telescope',
+      { text: '1x telescope',
         link: 'https://sites.google.com/view/1xtelescope',
         target: '_blank',
         rel: 'sponsored'
@@ -74,15 +70,15 @@ export default defineConfig({
   // ページごとに設定したいものは、ここに書かないこと！（なぜかオーバーライドされない）
   head: [
     ["link", { rel: "icon", href: "./favicon.ico" }],
-
     ["meta", { property: "og:image", content: "https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/public/cover02.png?raw=true" }],
     ["meta", { property: "og:locale", content: "ja_JP" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "aSumoranda" }],
-
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@asumo_1xts" }],
   ],
+
+
 
   transformHead({ assets, pageData }) {
     const head: HeadConfig[] = []
@@ -114,6 +110,7 @@ export default defineConfig({
     head.push(['meta', { property: 'og:url', content: url }]);
     head.push(['meta', { property: 'og:author', content: author }]);
     
+    // まとめて返す
     return head;
   }
   
