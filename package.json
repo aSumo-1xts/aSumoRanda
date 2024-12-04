@@ -2,7 +2,7 @@
   "name": "asumoranda",
   "packageManager": "yarn@1.22.22",
   "compilerOptions": {
-    "module": "ESNext", 
+    "module": "ESNext",
     "moduleResolution": "Bundler"
   },
   "include": [
@@ -26,6 +26,7 @@
     "vitepress-plugin-tabs": "^0.5.0"
   },
   "dependencies": {
+    "@nolebase/vitepress-plugin-inline-link-preview": "^2.11.1",
     "markdown-it-mathjax3": "^4.3.2"
   },
   "type": "module"

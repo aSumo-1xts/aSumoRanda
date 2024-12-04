@@ -1,4 +1,3 @@
-import { join } from 'node:path'
 import { defineConfig } from 'vite'
 import { 
     GitChangelog, 
@@ -9,7 +8,6 @@ export default defineConfig(() => {
     return {
         plugins: [ 
             GitChangelog({ 
-                // Fill in your repository URL here
                 repoURL: () => 'https://github.com/nolebase/integrations',
                 mapAuthors: [ 
                     { 

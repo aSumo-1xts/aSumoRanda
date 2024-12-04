@@ -84,7 +84,7 @@ export default defineConfig({
     }
   },
 
-  lastUpdated: true,
+  lastUpdated: false,
 
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({ hostname: 'https://asumo-1xts.github.io/aSumoranda/' })

@@ -16,7 +16,7 @@ const Theme: ThemeConfig = {
     enhanceApp({ app }) {
         enhanceAppWithTabs(app)
         app.use(NolebaseGitChangelogPlugin)
-    },
+    }
 }
 
 export default Theme
