@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, HeadConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -71,27 +71,27 @@ export default defineConfig({
   },
 
   // メタタグの設定
+  // ページごとに設定したいものは、ここに書かないこと！（なぜかオーバーライドされない）
   head: [
     ["link", { rel: "icon", href: "./favicon.ico" }],
-    ["meta", { property: "og:image", content: "https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/public/cover.png?raw=true" }],
+    ["meta", { property: "og:image", content: "https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/public/cover01.png?raw=true" }],
 
     ["meta", { property: "og:locale", content: "ja_JP" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:url", content: "https://asumoranda.vercel.app" }],
+    ["meta", { property: "og:url", content: "https://asumo-1xts.github.io/aSumoranda/" }],
     ["meta", { property: "og:site_name", content: "aSumoranda" }],
-
-    ["meta", { property: "og:title", content: "Home" }],
-    ["meta", { property: "og:description", content: "ｱｽﾓﾗﾝﾀﾞへようこそ。" }],
 
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@asumo_1xts" }],
   ],
 
-  // フォントファイルのプリロード
-  transformHead({ assets }) {
+  transformHead({ assets, pageData }) {
+    const head: HeadConfig[] = []
+
+    // フォントのプリロード
     const FontFile = assets.find(file => /(HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
     if (FontFile) {
-      return [
+      head.push (
         [
           'link',
           {
@@ -102,9 +102,14 @@ export default defineConfig({
             crossorigin: ''
           }
         ]
-      ];
+      );
     }
-    return [];
+
+    // 動的なメタタグの設定
+    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
+    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
+    
+    return head;
   }
   
 })
