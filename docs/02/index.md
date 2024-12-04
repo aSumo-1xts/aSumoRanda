@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  text: "MIDIコントローラ"
+  text: "その他の工作"
   tagline: 記事一覧
 
 features:

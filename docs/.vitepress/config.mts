@@ -1,6 +1,6 @@
 import { createContentLoader, defineConfig, HeadConfig } from 'vitepress'
 import { SitemapStream } from 'sitemap'
-import { createWriteStream } from 'node:fs'
+import { createWriteStream, link } from 'node:fs'
 import { resolve } from 'node:path'
 
 // https://vitepress.dev/reference/site-config
@@ -30,7 +30,7 @@ export default defineConfig({
           { text: 'Item B', link: '/item-b' },
         ]
       },
-      { text: 'MIDIコントローラ',
+      { text: 'その他の工作',
         collapsed: true,
         items: [
           { text: 'ArduinoでDAWからBPMを取得する', link: '/02/20241203' },
@@ -41,7 +41,9 @@ export default defineConfig({
 
     nav: [
       { text: 'エフェクター', link: '/01/' },
-      { text: 'MIDIコントローラ', link: '/02/' },
+      { text: 'その他の工作', link: '/02/' },
+      { text: 'プログラミング', link: '/03/' },
+      { text: 'レビュー・雑記', link: '/04/' },
       { text: '1x telescope',
         link: 'https://sites.google.com/view/1xtelescope',
         target: '_blank',
