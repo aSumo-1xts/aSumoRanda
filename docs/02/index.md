@@ -9,7 +9,7 @@ hero:
 features:
   - icon: ⏱️
     title: ArduinoでDAWからBPMを取得する
-    details: 「ぼくがかんがえたさいきょうのMIDIコントローラー」を作る過程で生まれた副産物
+    details: 「ぼくがかんがえたさいきょうのMIDIコントローラー」の副産物
     link: ./20241203
   - icon: 🎚️
     title: Arduinoで理想のMIDIコントローラーを作る
