@@ -13,15 +13,18 @@
 :root {
     --vp-c-brand-1: #039393;
     --vp-c-brand-2: #fc6c6c;
-    --vp-c-brand-3: #5a5a5a;
+    --vp-c-brand-3: var(--vp-button-alt-text);
+    --vp-button-brand-text: var(--vp-button-alt-bg);
+
+    --vp-c-text-2: #5a5a5a;
 
     --vp-c-bg: #e5dfcf;
     --vp-c-bg-alt: #ffffff;
     --vp-c-bg-soft: #ffffff;
 
-    --vp-c-divider: #aaaaaa;
-    --vp-c-border: #aaaaaa;
-    --vp-c-gutter: #aaaaaa;
+    --vp-c-divider: #c0c0c0;
+    --vp-c-border: #c0c0c0;
+    --vp-c-gutter: #c0c0c0;
 
     --vp-home-hero-name-color: #039393;
 
@@ -31,7 +34,10 @@
 .dark {
     --vp-c-brand-1: #a8d9d5;
     --vp-c-brand-2: #ffb2ae;
-    --vp-c-brand-3: #039393;
+    --vp-c-brand-3: var(--vp-button-alt-text);
+    --vp-button-brand-text: var(--vp-button-alt-bg);
+
+    --vp-c-text-2: #c0c0c0;
 
     --vp-c-bg: #252525;
     --vp-c-bg-alt: #1a1a1a;
