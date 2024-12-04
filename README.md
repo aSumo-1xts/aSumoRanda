@@ -2,4 +2,4 @@
 
 ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
-https://asumoranda.vercel.app/
+Visit: https://asumo-1xts.github.io/aSumoranda/
