@@ -106,8 +106,10 @@ export default defineConfig({
     }
 
     // 動的なメタタグの設定
-    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
+    const title = pageData.frontmatter.title || 'aSumoranda';
+    const description = pageData.frontmatter.description || 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ';
+    head.push(['meta', { property: 'og:title', content: title }]);
+    head.push(['meta', { property: 'og:description', content: description }]);
     
     return head;
   }
