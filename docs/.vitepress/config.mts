@@ -2,7 +2,6 @@ import { createContentLoader, defineConfig, HeadConfig } from 'vitepress'
 import { SitemapStream } from 'sitemap'
 import { createWriteStream} from 'node:fs'
 import { resolve } from 'node:path'
-import lightbox from "vitepress-plugin-lightbox"
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { 
   GitChangelog, 
@@ -33,7 +32,6 @@ export default defineConfig({
       lazyLoading: false
     },
     config: (md) => {
-      md.use(lightbox, {});
       md.use(tabsMarkdownPlugin)
     }
   },
