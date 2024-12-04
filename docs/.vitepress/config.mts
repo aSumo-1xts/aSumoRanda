@@ -30,7 +30,7 @@ export default defineConfig({
     math: true,
     lineNumbers: true,
     image: {
-      lazyLoading: true
+      lazyLoading: false
     },
     config: (md) => {
       md.use(lightbox, {});
