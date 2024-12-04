@@ -3,7 +3,6 @@ layout: home
 
 hero:
   name: "aSumoranda"
-  text: "Home"
   tagline: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
   actions:
     - theme: brand

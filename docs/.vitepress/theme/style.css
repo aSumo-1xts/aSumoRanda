@@ -12,6 +12,8 @@
 
 :root {
     --vp-c-brand-1: #039393;
+    --vp-c-brand-2: #fc6c6c;
+    --vp-c-brand-3: #5a5a5a;
 
     --vp-c-bg: #e5dfcf;
     --vp-c-bg-alt: #ffffff;
@@ -22,10 +24,14 @@
     --vp-c-gutter: #aaaaaa;
 
     --vp-home-hero-name-color: #039393;
+
+    --vp-layout-max-width: 1440px;
 }
 
 .dark {
     --vp-c-brand-1: #a8d9d5;
+    --vp-c-brand-2: #ffb2ae;
+    --vp-c-brand-3: #039393;
 
     --vp-c-bg: #252525;
     --vp-c-bg-alt: #1a1a1a;
