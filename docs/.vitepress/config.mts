@@ -4,9 +4,23 @@ import { createWriteStream} from 'node:fs'
 import { resolve } from 'node:path'
 import lightbox from "vitepress-plugin-lightbox"
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+import { 
+  GitChangelog, 
+  GitChangelogMarkdownSection, 
+} from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: { 
+    plugins: [ 
+      GitChangelog({ 
+        // Fill in your repository URL here
+        repoURL: () => 'https://github.com/aSumo-1xts/aSumoranda', 
+      }), 
+      GitChangelogMarkdownSection(), 
+    ],
+  },
+
   lang: 'ja',
   base: '/aSumoranda/',
   title: "aSumoranda",
