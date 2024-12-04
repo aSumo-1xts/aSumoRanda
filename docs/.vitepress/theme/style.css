@@ -58,3 +58,7 @@ body {
 code {
     font-family: 'Moralerspace Neon HW', monospace;
 }
+
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+    margin-right: 0;
+}
