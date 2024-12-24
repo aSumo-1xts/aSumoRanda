@@ -10,15 +10,15 @@ import {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  vite: { 
-    plugins: [ 
-      GitChangelog({ 
-        // Fill in your repository URL here
-        repoURL: () => 'https://github.com/aSumo-1xts/aSumoranda', 
-      }), 
-      GitChangelogMarkdownSection(), 
-    ],
-  },
+  // vite: { 
+  //   plugins: [ 
+  //     GitChangelog({ 
+  //       // Fill in your repository URL here
+  //       repoURL: () => 'https://github.com/aSumo-1xts/aSumoranda', 
+  //     }), 
+  //     GitChangelogMarkdownSection(), 
+  //   ],
+  // },
 
   lang: 'ja',
   base: '/aSumoranda/',
@@ -82,7 +82,7 @@ export default defineConfig({
     }
   },
 
-  lastUpdated: false,
+  lastUpdated: true,
 
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({ hostname: 'https://asumo-1xts.github.io/aSumoranda/' })
