@@ -44,8 +44,8 @@ export default defineConfig({
       { text: 'エフェクター',
         collapsed: true,
         items: [
-          { text: 'Item A', link: '/item-a' },
-          { text: 'Item B', link: '/item-b' },
+          { text: 'トゥルーバイパス用モジュール基板', link: '/01/20241201' },
+          { text: 'トレイルバイパス用モジュール基板', link: '/01/20241202' },
         ]
       },
       { text: 'その他の工作',
