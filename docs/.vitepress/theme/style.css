@@ -16,15 +16,15 @@
     --vp-c-brand-3: var(--vp-button-alt-text);
     --vp-button-brand-text: var(--vp-button-alt-bg);
 
-    --vp-c-text-2: #5a5a5a;
+    --vp-c-text-2:  #5a5a5a;
 
-    --vp-c-bg: #e5dfcf;
-    --vp-c-bg-alt: #ffffff;
-    --vp-c-bg-soft: #f3f3f3;
+    --vp-c-bg:      #f7f7f7;
+    --vp-c-bg-alt:  #ffffff;
+    --vp-c-bg-soft: #ffffff;
 
     --vp-c-divider: #c0c0c0;
-    --vp-c-border: #c0c0c0;
-    --vp-c-gutter: #c0c0c0;
+    --vp-c-border:  #c0c0c0;
+    --vp-c-gutter:  #c0c0c0;
 
     --vp-home-hero-name-color: #039393;
 
@@ -37,15 +37,15 @@
     --vp-c-brand-3: var(--vp-button-alt-text);
     --vp-button-brand-text: var(--vp-button-alt-bg);
 
-    --vp-c-text-2: #c0c0c0;
+    --vp-c-text-2:  #c0c0c0;
 
-    --vp-c-bg: #252525;
-    --vp-c-bg-alt: #1a1a1a;
+    --vp-c-bg:      #252525;
+    --vp-c-bg-alt:  #1a1a1a;
     --vp-c-bg-soft: #1a1a1a;
 
     --vp-c-divider: #5a5a5a;
-    --vp-c-border: #5a5a5a;
-    --vp-c-gutter: #5a5a5a;
+    --vp-c-border:  #5a5a5a;
+    --vp-c-gutter:  #5a5a5a;
 
     --vp-home-hero-name-color: #a8d9d5;
 }
