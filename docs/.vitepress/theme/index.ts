@@ -14,6 +14,8 @@ import {
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
+import googleAnalytics from 'vitepress-plugin-google-analytics'
+
 
 
 const Theme: ThemeConfig = {
@@ -34,4 +36,11 @@ const Theme: ThemeConfig = {
     }
 }
 
-export default Theme
+export default {
+    ...Theme,
+    enhanceApp: (ctx) => {
+        googleAnalytics({
+            id: 'G-97N6QVKKJX',
+        })
+    }
+}
