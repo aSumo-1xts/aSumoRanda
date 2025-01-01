@@ -8,36 +8,16 @@
     src: url('./fonts/MoralerspaceNeonHW-Regular.woff2') format('woff2');
 }
 
-/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
-
-:root {
-    --vp-c-brand-1: #039393;
-    --vp-c-brand-2: #fc6c6c;
-    --vp-c-brand-3: var(--vp-button-alt-text);
-    --vp-button-brand-text: var(--vp-button-alt-bg);
-
-    --vp-c-text-2:  #5a5a5a;
-
-    --vp-c-bg:      #f7f7f7;
-    --vp-c-bg-alt:  #ffffff;
-    --vp-c-bg-soft: #ffffff;
-
-    --vp-c-divider: #c0c0c0;
-    --vp-c-border:  #c0c0c0;
-    --vp-c-gutter:  #c0c0c0;
-
-    --vp-home-hero-name-color: #039393;
-
-    --vp-layout-max-width: 1440px;
-}
-
 .dark {
-    --vp-c-brand-1: #a8d9d5;
-    --vp-c-brand-2: #ffb2ae;
-    --vp-c-brand-3: var(--vp-button-alt-text);
-    --vp-button-brand-text: var(--vp-button-alt-bg);
+    --vp-c-miku-1:      #a8d9d5;
+    --vp-c-miku-2:      #68b3af;
+    --vp-c-miku-3:      #039393;
+    --vp-c-miku-soft:   rgba(168, 217, 213, 0.16);
 
-    --vp-c-text-2:  #c0c0c0;
+    --vp-c-brand-1:     var(--vp-c-miku-1);
+    --vp-c-brand-2:     var(--vp-c-miku-2);
+    --vp-c-brand-3:     var(--vp-c-miku-3);
+    --vp-c-brand-soft:  var(--vp-c-miku-soft);
 
     --vp-c-bg:      #252525;
     --vp-c-bg-alt:  #1a1a1a;
@@ -47,14 +27,11 @@
     --vp-c-border:  #5a5a5a;
     --vp-c-gutter:  #5a5a5a;
 
-    --vp-home-hero-name-color: #a8d9d5;
+    --vp-font-family-base: 'Harano Aji Gothic', ui-sans-serif, system-ui, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --vp-font-family-mono: 'Moralerspace Neon HW',  monospace;
+
+    font-optical-sizing: auto;
 }
 
-body {
-    background-color: var(--vp-c-bg);
-    font-family: 'Harano Aji Gothic', sans-serif;
-}
-
-code {
-    font-family: 'Moralerspace Neon HW', monospace;
-}
+/* 参考: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */

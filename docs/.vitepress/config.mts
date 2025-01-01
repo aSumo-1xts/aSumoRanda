@@ -7,18 +7,21 @@ import {
   GitChangelog, 
   GitChangelogMarkdownSection, 
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import { type DefaultTheme } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar';
 
-// https://vitepress.dev/reference/site-config
+
+
 export default defineConfig({
-  // vite: { 
-  //   plugins: [ 
-  //     GitChangelog({ 
-  //       // Fill in your repository URL here
-  //       repoURL: () => 'https://github.com/aSumo-1xts/aSumoranda', 
-  //     }), 
-  //     GitChangelogMarkdownSection(), 
-  //   ],
-  // },
+//   vite: { 
+//     plugins: [ 
+//       GitChangelog({ 
+//         // Fill in your repository URL here
+//         repoURL: () => 'https://github.com/aSumo-1xts/aSumoranda', 
+//       }), 
+//       GitChangelogMarkdownSection(), 
+//     ],
+//   },
 
   lang: 'ja',
   base: '/aSumoranda/',
@@ -37,55 +40,55 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: "/home.svg",
+    logo: "./home.png",
     siteTitle: false,
 
-    sidebar: [
-      { text: 'エフェクター',
-        collapsed: true,
-        items: [
-          { text: 'トゥルーバイパス用モジュール基板', link: '/01/20241201' },
-          { text: 'トレイルバイパス用モジュール基板', link: '/01/20241202' },
-        ]
-      },
-      { text: 'その他の工作',
-        collapsed: true,
-        items: [
-          { text: 'ArduinoでDAWからBPMを取得する', link: '/02/20241203' },
-          { text: 'Arduinoで理想のMIDIコントローラーを作る', link: '/02/20241204' },
-        ]
-      }
-    ],
-
     nav: [
-      { text: 'エフェクター', link: '/01/' },
-      { text: 'その他の工作', link: '/02/' },
-      { text: 'プログラミング', link: '/03/' },
-      { text: 'レビュー・雑記', link: '/04/' },
-      { text: '1x telescope',
+      { text: 'すべての記事', link: '/posts/' },
+      { text: 'Contact', link: './contact' },
+      { 
+        text: '1x telescope',
         link: 'https://sites.google.com/view/1xtelescope',
         target: '_blank',
         rel: 'sponsored'
       }
     ],
 
+    sidebar: {
+      '/': { base: '', items: sidebarTags() },
+    },
+
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/DPArTErbtv' },
-      { icon: 'twitter', link: 'https://x.com/asumo_1xts' },
-      { icon: 'youtube', link: 'https://www.youtube.com/@1xtelescope' },
-      { icon: 'github', link: 'https://github.com/aSumo-1xts' },
+      { icon: 'discord',  link: 'https://discord.gg/DPArTErbtv' },
+      { icon: 'twitter',  link: 'https://x.com/asumo_1xts' },
+      { icon: 'youtube',  link: 'https://www.youtube.com/@1xtelescope' },
+      { icon: 'github',   link: 'https://github.com/aSumo-1xts' },
     ],
 
     footer: {
       message: 'Some rights reserved.',
       copyright: 'ｱｽﾓ 2024 | CC BY-SA 4.0',
+    },
+
+    editLink: {
+      pattern:  'https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/:path',
+      text:     'GitHubで編集を提案',
+    },
+
+    lastUpdated: {
+      text: '最終更新日',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'short',
+      }
     }
+
   },
 
-  lastUpdated: true,
+  appearance: "force-dark", // ダークモードのみ
 
   buildEnd: async ({ outDir }) => {
-    const sitemap = new SitemapStream({ hostname: 'https://asumo-1xts.github.io/aSumoranda/' })
+    const sitemap = new SitemapStream({ hostname: 'https://aSumo-1xts.github.io/aSumoranda/' })
     const pages = await createContentLoader('*.md').load()
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
 
@@ -139,7 +142,7 @@ export default defineConfig({
     // 動的なメタタグの設定
     const title = pageData.frontmatter.title || 'aSumoranda';
     const description = pageData.frontmatter.description || 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ';
-    const url = pageData.frontmatter.permalink || 'https://asumo-1xts.github.io/aSumoranda/';
+    const url = pageData.frontmatter.permalink || 'https://aSumo-1xts.github.io/aSumoranda/';
     const author = pageData.frontmatter.author || 'aSumo';
     head.push(['meta', { property: 'og:title', content: title }]);
     head.push(['meta', { property: 'og:description', content: description }]);
@@ -148,6 +151,24 @@ export default defineConfig({
     
     // まとめて返す
     return head;
-  }
+  },
   
 })
+
+
+
+function sidebarTags(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: '▼ タグ一覧',
+      base:'/tags/',
+      items: generateSidebar({  // itemsにエラーが出ても無視
+        documentRootPath:           'docs',
+        scanStartPath:              'tags',
+        useTitleFromFrontmatter:      true,
+        sortMenusByFrontmatterOrder:  false,
+        frontmatterOrderDefaultValue: 1000,
+      })
+    }
+  ]
+}
