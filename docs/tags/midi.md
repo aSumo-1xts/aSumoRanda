@@ -4,7 +4,7 @@ description: 「MIDI」のタグが付いた記事
 permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/midi.html"
 prev: false
 next: false
-order: 4
+order: 6
 editLink: false
 lastUpdated: false
 ---

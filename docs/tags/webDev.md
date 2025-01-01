@@ -1,10 +1,10 @@
 ---
-title: MATLAB
-description: 「MATLAB」のタグが付いた記事
-permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/matlab.html"
+title: Web開発
+description: 「Web開発」のタグが付いた記事
+permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/webDev.html"
 prev: false
 next: false
-order: 8
+order: 4
 editLink: false
 lastUpdated: false
 ---
@@ -16,6 +16,6 @@ lastUpdated: false
 
 # {{ $frontmatter.description }}
 
-<span class="text-base"><PostCounter tag="matlab" /></span>件
+<span class="text-base"><PostCounter tag="webDev" /></span>件
 
-<TaggedPostList tag="matlab" />
+<TaggedPostList tag="webDev" />
