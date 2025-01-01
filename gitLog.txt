@@ -1,20 +1,8 @@
-commit a308e9096c3c8faf8267c03b6efda674baaefefd
+commit 9132b6329528635aaf14c40cdc4f9fc61d6b2656
 Author: aSumo <1xtelescope@gmail.com>
-Date:   Wed Jan 1 18:20:22 2025 +0900
+Date:   Wed Jan 1 18:24:29 2025 +0900
 
-    fix: カラーテーマを調整
-
-commit 9ba542dbb99e5d4958fad6823a4f8389d1e39f3a
-Author: aSumo <1xtelescope@gmail.com>
-Date:   Wed Jan 1 18:17:17 2025 +0900
-
-    update: Gitのログを更新
-
-commit a8455f49eb046fe87406bff63901013d480396be
-Author: aSumo <1xtelescope@gmail.com>
-Date:   Wed Jan 1 18:15:56 2025 +0900
-
-    fix: 全体にわたって細部を修正
+    fix: 諸々の細部を修正
 
 commit d6c20d8fa3ffc6e4b983d8079a42f0f6dcf68da3
 Author: aSumo <1xtelescope@gmail.com>
