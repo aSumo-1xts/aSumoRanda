@@ -9,7 +9,7 @@ import moment from 'moment';
 
 <ul>
     <li v-for="post of posts">
-        <a :href="post.url" class="font-semibold text-lg">{{ post.frontmatter.title }}</a>
+        <a :href="`/aSumoranda${post.url}`" class="font-semibold text-lg">{{ post.frontmatter.title }}</a>
         <span class="text-sm"> - {{ moment(post.frontmatter.date).format('YYYY-MM-DD') }}</span>
     </li>
 </ul>

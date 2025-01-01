@@ -3,11 +3,12 @@ title: MIDI
 description: 「MIDI」のタグが付いた記事一覧
 prev: false
 next: false
+order: 4
 ---
 
 <script lang="ts" setup>
-    import TaggedPostList from "../.vitepress/components/TaggedPostList.vue"
-    import PostCounter from "../.vitepress/components/PostCounter.vue"
+    import TaggedPostList   from "../.vitepress/components/TaggedPostList.vue"
+    import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
 # {{ $frontmatter.description }}

@@ -12,7 +12,7 @@ let taggedPosts = posts.filter(page => page.frontmatter.tags
 <template>
     <ul>
         <li v-for="post of taggedPosts">
-            <a :href="post.url" class="font-semibold text-lg">{{ post.frontmatter.title }}</a>
+            <a :href="`/aSumoranda${post.url}`" class="font-semibold text-lg">{{ post.frontmatter.title }}</a>
             <span class="text-sm"> - {{ moment(post.frontmatter.date).format('YYYY-MM-DD') }}</span>
         </li>
     </ul>

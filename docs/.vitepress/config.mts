@@ -45,7 +45,7 @@ export default defineConfig({
 
     nav: [
       { text: 'すべての記事', link: '/posts/' },
-      { text: 'Contact', link: './contact' },
+      { text: 'Contact', link: '/contact' },
       { 
         text: '1x telescope',
         link: 'https://sites.google.com/view/1xtelescope',
@@ -66,8 +66,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Some rights reserved.',
-      copyright: 'ｱｽﾓ 2024 | CC BY-SA 4.0',
+      message:    'Some rights reserved.',
+      copyright:  'ｱｽﾓ 2024 | CC BY-SA 4.0',
     },
 
     editLink: {
@@ -88,17 +88,15 @@ export default defineConfig({
   appearance: "force-dark", // ダークモードのみ
 
   buildEnd: async ({ outDir }) => {
-    const sitemap = new SitemapStream({ hostname: 'https://aSumo-1xts.github.io/aSumoranda/' })
-    const pages = await createContentLoader('*.md').load()
+    const sitemap     = new SitemapStream({ hostname: 'https://aSumo-1xts.github.io/aSumoranda/' })
+    const pages       = await createContentLoader('*.md').load()
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
 
     sitemap.pipe(writeStream)
     pages.forEach((page) => sitemap.write(
       page.url
-        // Strip `index.html` from URL
-        .replace(/index.html$/g, '')
-        // Optional: if Markdown files are located in a subfolder
-        .replace(/^\/docs/, '')
+        .replace(/index.html$/g, '')  // Strip `index.html` from URL
+        .replace(/^\/docs/, '')       // Optional: if Markdown files are located in a subfolder
       ))
     sitemap.end()
 
@@ -109,12 +107,12 @@ export default defineConfig({
   // ページごとに設定したいものは、ここに書かないこと！（なぜかオーバーライドされない）
   head: [
     ["link", { rel: "icon", href: "./favicon.ico" }],
-    ["meta", { property: "og:image", content: "https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/public/cover02.png?raw=true" }],
-    ["meta", { property: "og:locale", content: "ja_JP" }],
-    ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:site_name", content: "aSumoranda" }],
-    ["meta", { property: "twitter:card", content: "summary" }],
-    ["meta", { property: "twitter:site", content: "@asumo_1xts" }],
+    ["meta", { property: "og:image",      content: "https://github.com/aSumo-1xts/aSumoranda/blob/main/docs/public/cover02.png?raw=true" }],
+    ["meta", { property: "og:locale",     content: "ja_JP" }],
+    ["meta", { property: "og:type",       content: "website" }],
+    ["meta", { property: "og:site_name",  content: "aSumoranda" }],
+    ["meta", { property: "twitter:card",  content: "summary" }],
+    ["meta", { property: "twitter:site",  content: "@asumo_1xts" }],
   ],
 
 
@@ -129,25 +127,24 @@ export default defineConfig({
         [
           'link',
           {
-            rel: 'preload',
+            rel:  'preload',
             href: FontFile,
-            as: 'font',
+            as:   'font',
             type: 'font/woff2',
-            crossorigin: ''
           }
         ]
       );
     }
 
     // 動的なメタタグの設定
-    const title = pageData.frontmatter.title || 'aSumoranda';
+    const title       = pageData.frontmatter.title || 'aSumoranda';
     const description = pageData.frontmatter.description || 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ';
-    const url = pageData.frontmatter.permalink || 'https://aSumo-1xts.github.io/aSumoranda/';
-    const author = pageData.frontmatter.author || 'aSumo';
-    head.push(['meta', { property: 'og:title', content: title }]);
-    head.push(['meta', { property: 'og:description', content: description }]);
-    head.push(['meta', { property: 'og:url', content: url }]);
-    head.push(['meta', { property: 'og:author', content: author }]);
+    const url         = pageData.frontmatter.permalink || 'https://aSumo-1xts.github.io/aSumoranda/';
+    const author      = pageData.frontmatter.author || 'aSumo';
+    head.push(['meta', { property: 'og:title',        content: title }]);
+    head.push(['meta', { property: 'og:description',  content: description }]);
+    head.push(['meta', { property: 'og:url',          content: url }]);
+    head.push(['meta', { property: 'og:author',       content: author }]);
     
     // まとめて返す
     return head;
@@ -160,14 +157,14 @@ export default defineConfig({
 function sidebarTags(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '▼ タグ一覧',
+      text: 'タグ一覧',
       base:'/tags/',
+      collapsed: true,
       items: generateSidebar({  // itemsにエラーが出ても無視
         documentRootPath:           'docs',
         scanStartPath:              'tags',
         useTitleFromFrontmatter:      true,
-        sortMenusByFrontmatterOrder:  false,
-        frontmatterOrderDefaultValue: 1000,
+        sortMenusByFrontmatterOrder:  true,
       })
     }
   ]
