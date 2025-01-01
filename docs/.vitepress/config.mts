@@ -41,10 +41,11 @@ export default defineConfig({
 
   themeConfig: {
     logo: "./home.png",
-    siteTitle: false,
+    siteTitle: "aSumoranda",
 
     nav: [
       { text: 'すべての記事', link: '/posts/' },
+      { text: 'すべてのタグ', link: '/tags/' },
       { text: 'Contact', link: '/contact' },
       { 
         text: '1x telescope',
@@ -159,7 +160,7 @@ function sidebarTags(): DefaultTheme.SidebarItem[] {
     {
       text: 'タグ一覧',
       base:'/tags/',
-      collapsed: true,
+      collapsed: false,
       items: generateSidebar({  // itemsにエラーが出ても無視
         documentRootPath:           'docs',
         scanStartPath:              'tags',

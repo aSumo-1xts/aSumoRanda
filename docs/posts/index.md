@@ -1,11 +1,19 @@
+---
+layout: doc
+title: すべての記事
+description: これまでに書いた記事の一覧です
+prev: false
+next: false
+editLink: false
+lastUpdated: false
+---
+
+# {{ $frontmatter.title }}
+
 <script lang="ts" setup>
-import { data as posts } from "../.vitepress/posts.data";
-import moment from 'moment';
+    import { data as posts } from "../.vitepress/posts.data";
+    import moment from 'moment';
 </script>
-
-<br>
-
-# 記事一覧
 
 <ul>
     <li v-for="post of posts">

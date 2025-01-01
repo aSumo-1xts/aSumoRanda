@@ -5,5 +5,6 @@ export default createContentLoader('tags/*.md', {
     transform(rawData) {
         return rawData
         .filter(page => page.url != "/tags/")
+        .sort((a,b)=> +new Number(a.frontmatter.order) - +new Number(b.frontmatter.order));
     }
 });

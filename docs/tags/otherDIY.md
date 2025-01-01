@@ -1,10 +1,12 @@
 ---
 title: その他の工作
-description: 「その他の工作」のタグが付いた記事一覧
+description: 「その他の工作」のタグが付いた記事
+permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/otherDIY.html"
 prev: false
 next: false
 order: 2
 editLink: false
+lastUpdated: false
 ---
 
 <script lang="ts" setup>
@@ -14,6 +16,6 @@ editLink: false
 
 # {{ $frontmatter.description }}
 
-<span class="text-base"><PostCounter tag="その他の工作" /></span>件の記事が見つかりました。
+<span class="text-base"><PostCounter tag="その他の工作" /></span>件
 
 <TaggedPostList tag="その他の工作" />

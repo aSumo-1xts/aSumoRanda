@@ -1,3 +1,45 @@
+commit a308e9096c3c8faf8267c03b6efda674baaefefd
+Author: aSumo <1xtelescope@gmail.com>
+Date:   Wed Jan 1 18:20:22 2025 +0900
+
+    fix: カラーテーマを調整
+
+commit 9ba542dbb99e5d4958fad6823a4f8389d1e39f3a
+Author: aSumo <1xtelescope@gmail.com>
+Date:   Wed Jan 1 18:17:17 2025 +0900
+
+    update: Gitのログを更新
+
+commit a8455f49eb046fe87406bff63901013d480396be
+Author: aSumo <1xtelescope@gmail.com>
+Date:   Wed Jan 1 18:15:56 2025 +0900
+
+    fix: 全体にわたって細部を修正
+
+commit d6c20d8fa3ffc6e4b983d8079a42f0f6dcf68da3
+Author: aSumo <1xtelescope@gmail.com>
+Date:   Wed Jan 1 17:00:40 2025 +0900
+
+    fix: 各タグページでeditLinkを非表示
+
+commit 0eefca4c9d32b027662f809c7b2a466161ec1dee
+Author: aSumo <1xtelescope@gmail.com>
+Date:   Wed Jan 1 16:56:48 2025 +0900
+
+    fix: Sidebarに関するエラーを解決
+
+commit 5ffcc6b08721eaf09557a08c2d0186cfc14ceb49
+Author: aSumo <1xtelescope@gmail.com>
+Date:   Wed Jan 1 15:27:23 2025 +0900
+
+    add: VitePress Sidebarを導入
+
+commit 2d6be7d424c4ede52888818bd495700ee6f70437
+Author: aSumo <1xtelescope@gmail.com>
+Date:   Mon Dec 30 08:55:37 2024 +0900
+
+    add: gitログを生成
+
 commit e79797eebd858d1539f61bbec800db54ad486eb4
 Author: aSumo <1xtelescope@gmail.com>
 Date:   Mon Dec 30 08:48:38 2024 +0900

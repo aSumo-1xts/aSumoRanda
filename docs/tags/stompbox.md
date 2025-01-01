@@ -1,10 +1,12 @@
 ---
 title: エフェクター
-description: 「エフェクター」のタグが付いた記事一覧
+description: 「エフェクター」のタグが付いた記事
+permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/stompbox.html"
 prev: false
 next: false
 order: 1
 editLink: false
+lastUpdated: false
 ---
 
 <script lang="ts" setup>
@@ -14,6 +16,6 @@ editLink: false
 
 # {{ $frontmatter.description }}
 
-<span class="text-base"><PostCounter tag="エフェクター" /></span>件の記事が見つかりました。
+<span class="text-base"><PostCounter tag="エフェクター" /></span>件
 
 <TaggedPostList tag="エフェクター" />
