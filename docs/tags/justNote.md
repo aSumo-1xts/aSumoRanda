@@ -4,6 +4,7 @@ description: 「雑記」のタグが付いた記事一覧
 prev: false
 next: false
 order: 3
+editLink: false
 ---
 
 <script lang="ts" setup>
