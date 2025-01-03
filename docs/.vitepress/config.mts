@@ -122,7 +122,7 @@ export default defineConfig({
     const head: HeadConfig[] = []
 
     // フォントのプリロード
-    const FontFile = assets.find(file => /(HaranoAjiGothic-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
+    const FontFile = assets.find(file => /(NotoSansJP-VariableFont_wght|ZenKakuGothicNew-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/);
     if (FontFile) {
       head.push (
         [

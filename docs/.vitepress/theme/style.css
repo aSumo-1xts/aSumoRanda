@@ -1,10 +1,15 @@
 @font-face {
-    font-family: "Harano Aji Gothic";
-    src: url('./fonts/HaranoAjiGothic-Regular.woff2') format('woff2');
+    font-family: 'myMainFont';
+    src: url('./fonts/NotoSansJP-VariableFont_wght.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Moralerspace Neon HW';
+    font-family: 'mySubFont';
+    src: url('./fonts/ZenKakuGothicNew-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'myCodeFont';
     src: url('./fonts/MoralerspaceNeonHW-Regular.woff2') format('woff2');
 }
 
@@ -26,12 +31,18 @@
     --vp-c-divider: #5a5a5a;
     --vp-c-border:  #5a5a5a;
     --vp-c-gutter:  #5a5a5a;
-
-    --vp-font-family-base: 'Harano Aji Gothic', ui-sans-serif, system-ui, sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --vp-font-family-mono: 'Moralerspace Neon HW',  monospace;
-
-    font-optical-sizing: auto;
 }
 
 /* 参考: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+
+body {
+    font-family: 'myMainFont', sans-serif;
+}
+
+h2 {
+    font-family: 'mySubFont', serif;
+}
+
+code {
+    font-family: 'myCodeFont', monospace;
+}
