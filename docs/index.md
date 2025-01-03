@@ -9,13 +9,13 @@ features:
   - icon: 🎛️
     title: Arduinoで理想のMIDIコントローラーを作る
     details: ぼくがかんがえたさいきょうのMIDIコントローラー
-    link: ./posts/20240915
+    link: ./posts/HeartLand
   - icon: 🎛️
     title: Arduinoで理想のMIDIコントローラーを作る
     details: ぼくがかんがえたさいきょうのMIDIコントローラー
-    link: ./posts/20240915
+    link: ./posts/HeartLand
   - icon: 🎛️
     title: Arduinoで理想のMIDIコントローラーを作る
     details: ぼくがかんがえたさいきょうのMIDIコントローラー
-    link: ./posts/20240915
+    link: ./posts/HeartLand
 ---

@@ -4,7 +4,7 @@ title: Arduinoで理想のMIDIコントローラーを作る
 description: ｱｽﾓﾗﾝﾀﾞ
 date: 2024-09-15
 permalink: "https://aSumo-1xts.github.io/aSumoranda/posts/20240915.html"
-prev: ./20240812
+prev: false
 next: false
 tags: 
     - arduino
@@ -291,7 +291,7 @@ bool realTimeMessageCallback(RealTimeMessage rt) {
 ```
 :::
 
-mother側では、DAWからクロックを受けてLEDをメトロノーム的に光らせる機能を盛り込んでいます。詳細は[こちらの記事](./20240812)にて。
+mother側では、DAWからクロックを受けてLEDをメトロノーム的に光らせる機能を盛り込んでいます。詳細は[こちらの記事](./DAW2BPM)にて。
 
 ### 基板
 

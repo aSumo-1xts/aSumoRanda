@@ -56,7 +56,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/': { base: '', items: sidebarTags() },
+      '/': { base: '', items: mySidebar() },
     },
 
     socialLinks: [
@@ -155,8 +155,20 @@ export default defineConfig({
 
 
 
-function sidebarTags(): DefaultTheme.SidebarItem[] {
+function mySidebar(): DefaultTheme.SidebarItem[] {
   return [
+    {
+      text: '最近の記事',
+      base:'/posts/',
+      collapsed: false,
+      items: generateSidebar({  // itemsにエラーが出ても無視
+        documentRootPath:           'docs',
+        scanStartPath:              'posts',
+        useTitleFromFrontmatter:      true,
+        sortMenusByFrontmatterDate:   true,
+        sortMenusOrderByDescending:   true,
+      })
+    },
     {
       text: 'タグ一覧',
       base:'/tags/',
@@ -167,6 +179,6 @@ function sidebarTags(): DefaultTheme.SidebarItem[] {
         useTitleFromFrontmatter:      true,
         sortMenusByFrontmatterOrder:  true,
       })
-    }
+    },
   ]
 }
