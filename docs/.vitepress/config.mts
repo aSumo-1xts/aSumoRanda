@@ -43,6 +43,8 @@ export default defineConfig({
     logo: "./home.png",
     siteTitle: "aSumoranda",
 
+    outlineTitle: "目次",
+
     nav: [
       { text: 'すべての記事', link: '/posts/' },
       { text: 'すべてのタグ', link: '/tags/' },
