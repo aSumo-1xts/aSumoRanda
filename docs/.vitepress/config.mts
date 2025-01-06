@@ -48,6 +48,7 @@ export default defineConfig({
     nav: [
       { text: 'すべての記事', link: '/posts/' },
       { text: 'すべてのタグ', link: '/tags/' },
+      { text: 'About', link: '/about' },
       { text: 'Contact', link: '/contact' },
       { 
         text: '1x telescope',
