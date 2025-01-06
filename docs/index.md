@@ -4,6 +4,9 @@ layout: home
 hero:
   name: "Home"
   tagline: "↓↓↓ Recomended Posts ↓↓↓"
+  image:
+    src: cover02.png
+    alt: aSumoranda
 
 features:
   - icon: 🎛️
