@@ -28,7 +28,7 @@ hero:
 - 製品のデモ動画　[YouTube](https://www.youtube.com/@1xtelescope)
 - 製品の販売　　　[メルカリShops](https://mercari-shops.com/shops/RdY2x3FGbBMRRMDFAuTXpa?source=shared_link&utm_source=shared_link)
 
-### その他SNSなど
+### ｱｽﾓのSNSなど
 
 - [Discord](https://discord.gg/DPArTErbtv)
 - [Twitter](https://x.com/aSumo_1xts)
