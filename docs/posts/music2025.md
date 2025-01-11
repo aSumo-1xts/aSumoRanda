@@ -10,7 +10,7 @@ tags:
     - justNote
 ---
 
-[雑記](../tags/justNote.md)
+[雑記](../tags/justnote.md)
 
 # {{ $frontmatter.title }}
 

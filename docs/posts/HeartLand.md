@@ -12,7 +12,7 @@ tags:
     - otherdiy
 ---
 
-[その他の工作](../tags/otherDIY.md) | [MIDI](../tags/midi.md) | [Arduino](../tags/arduino.md)
+[その他の工作](../tags/otherdiy.md) | [MIDI](../tags/midi.md) | [Arduino](../tags/arduino.md)
 
 # {{ $frontmatter.title }}
 
