@@ -3,7 +3,7 @@ layout: doc
 title: ArduinoでDAWからBPMを取得する
 description: ｱｽﾓﾗﾝﾀﾞ
 date: 2024-08-12
-permalink: "https://aSumo-1xts.github.io/aSumoranda/posts/20240812.html"
+permalink: "https://aSumo-1xts.github.io/aSumoranda/posts/DAW2BPM.html"
 prev: false
 next: false
 tags: 

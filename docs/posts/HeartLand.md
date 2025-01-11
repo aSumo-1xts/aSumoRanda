@@ -3,7 +3,7 @@ layout: doc
 title: Arduinoで理想のMIDIコントローラーを作る
 description: ｱｽﾓﾗﾝﾀﾞ
 date: 2024-09-15
-permalink: "https://aSumo-1xts.github.io/aSumoranda/posts/20240915.html"
+permalink: "https://aSumo-1xts.github.io/aSumoranda/posts/HeartLand.html"
 prev: false
 next: false
 tags: 
