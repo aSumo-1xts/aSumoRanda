@@ -4,7 +4,7 @@ description: 「雑記」のタグが付いた記事
 permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/justNote.html"
 prev: false
 next: false
-order: 1
+order: 5
 editLink: false
 lastUpdated: false
 ---
@@ -16,6 +16,6 @@ lastUpdated: false
 
 # {{ $frontmatter.description }}
 
-<span class="text-base"><PostCounter tag="雑記" /></span>件
+<span class="text-base"><PostCounter tag="justnote" /></span>件
 
-<TaggedPostList tag="雑記" />
+<TaggedPostList tag="justnote" />

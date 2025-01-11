@@ -7,7 +7,7 @@ permalink: "https://aSumo-1xts.github.io/aSumoranda/posts/music2025.html"
 prev: false
 next: false
 tags: 
-    - 雑記
+    - justNote
 ---
 
 [雑記](../tags/justNote.md)

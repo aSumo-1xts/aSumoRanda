@@ -9,7 +9,7 @@ next: false
 tags: 
     - arduino
     - midi
-    - その他の工作
+    - otherdiy
 ---
 
 [その他の工作](../tags/otherDIY.md) | [MIDI](../tags/midi.md) | [Arduino](../tags/arduino.md)

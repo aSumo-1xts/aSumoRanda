@@ -16,6 +16,6 @@ lastUpdated: false
 
 # {{ $frontmatter.description }}
 
-<span class="text-base"><PostCounter tag="その他の工作" /></span>件
+<span class="text-base"><PostCounter tag="otherdiy" /></span>件
 
-<TaggedPostList tag="その他の工作" />
+<TaggedPostList tag="otherdiy" />
