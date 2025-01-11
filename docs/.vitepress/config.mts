@@ -161,7 +161,7 @@ export default defineConfig({
 function mySidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '最近の記事',
+      text: '主な記事',
       base:'/posts/',
       collapsed: false,
       items: generateSidebar({  // itemsにエラーが出ても無視
@@ -173,7 +173,7 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
       })
     },
     {
-      text: 'タグ一覧',
+      text: '主なタグ',
       base:'/tags/',
       collapsed: false,
       items: generateSidebar({  // itemsにエラーが出ても無視
