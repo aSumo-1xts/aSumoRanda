@@ -117,6 +117,7 @@ export default defineConfig({
     ["meta", { property: "og:site_name",  content: "aSumoranda" }],
     ["meta", { property: "twitter:card",  content: "summary" }],
     ["meta", { property: "twitter:site",  content: "@asumo_1xts" }],
+    ["meta", { name: "google-site-verification", content: "Z4mBgVmyKVbtfym9T-qtX7jgGnNYrzWGiBkcP7vyXt0" }],
   ],
 
 
