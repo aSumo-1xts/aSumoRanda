@@ -21,4 +21,6 @@ features:
     title: Arduinoで理想のMIDIコントローラーを作る
     details: ぼくがかんがえたさいきょうのMIDIコントローラー
     link: ./posts/HeartLand
+
+permalink: https://asumo-1xts.github.io/aSumoranda/
 ---

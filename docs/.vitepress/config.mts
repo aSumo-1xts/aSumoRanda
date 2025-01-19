@@ -92,16 +92,15 @@ export default defineConfig({
   appearance: "force-dark", // ダークモードのみ
 
   buildEnd: async ({ outDir }) => {
-    const sitemap     = new SitemapStream({ hostname: 'https://aSumo-1xts.github.io/aSumoranda/' })
-    const pages       = await createContentLoader('*.md').load()
+    const sitemap     = new SitemapStream({ hostname: 'https://aSumo-1xts.github.io' })
+    const pages       = await createContentLoader('**/*.md').load()
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
 
     sitemap.pipe(writeStream)
+
     pages.forEach((page) => sitemap.write(
-      page.url
-        .replace(/index.html$/g, '')  // Strip `index.html` from URL
-        .replace(/^\/docs/, '')       // Optional: if Markdown files are located in a subfolder
-      ))
+      page.frontmatter.permalink
+    ))
     sitemap.end()
 
     await new Promise((r) => writeStream.on('finish', r))

@@ -4,6 +4,8 @@ layout: home
 hero:
     name: "About"
     tagline: "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ"
+
+permalink: https://asumo-1xts.github.io/aSumoranda/about.html
 ---
 
 ｱｽﾓが自由にものを書くための場所です。以下の思想に基づいて作られました。

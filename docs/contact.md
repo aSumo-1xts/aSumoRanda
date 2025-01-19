@@ -15,4 +15,6 @@ features:
   - icon: 🤝
     title: "Meet offline"
     details: "the Earth"
+
+permalink: https://asumo-1xts.github.io/aSumoranda/contact.html
 ---

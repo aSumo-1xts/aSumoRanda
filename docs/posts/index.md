@@ -6,6 +6,7 @@ prev: false
 next: false
 editLink: false
 lastUpdated: false
+permalink: "https://aSumo-1xts.github.io/aSumoranda/posts/"
 ---
 
 # {{ $frontmatter.title }}

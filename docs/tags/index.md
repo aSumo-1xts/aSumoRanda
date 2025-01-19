@@ -2,7 +2,7 @@
 layout: doc
 title: すべてのタグ
 description: 記事に付けられたタグの一覧
-permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/index.html"
+permalink: "https://aSumo-1xts.github.io/aSumoranda/tags/"
 prev: false
 next: false
 editLink: false
