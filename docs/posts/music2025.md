@@ -16,10 +16,17 @@ tags:
 
 随時更新します。
 
+<!--
+YouTube:    352     *   198
+Apple:      100%    *   324
+SC_Album:   100%    *   324
+SC_Single   100%    *   207
+-->
+
 ## 通行可能はあなただけ - Gyr0
 
 <br/>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/-uxkVIJbKKM" title="通行可能はあなただけ / ナースロボ_タイプT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="336" height="189" src="https://www.youtube.com/embed/-uxkVIJbKKM" title="通行可能はあなただけ / ナースロボ_タイプT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
 おれはこの手のエレクトロニカに弱すぎる！
@@ -31,7 +38,7 @@ tags:
 ## バブル - higma
 
 <br/>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/Gd4eR3jYCdc" title="higma -  バブル feat.初音ミク、ナースロボ＿タイプT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="336" height="189" src="https://www.youtube.com/embed/Gd4eR3jYCdc" title="higma -  バブル feat.初音ミク、ナースロボ＿タイプT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
 この曲の存在は昨年から知っていたけど、今年になってようやくちゃんと聴きました。
@@ -40,7 +47,7 @@ tags:
 ## To See the Next Part of the Dream - Parannoul
 
 <br/>
-<iframe height="450" width="75%" title="Media player" src="https://embed.music.apple.com/us/album/to-see-the-next-part-of-the-dream/1563369236?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1563369236&amp;theme=light" id="embedPlayer" style="border:0;border-radius:12px;width:75%;height:450px;max-width:660px" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write"></iframe>
+<iframe height="324" width="100%" title="Media player" src="https://embed.music.apple.com/us/album/to-see-the-next-part-of-the-dream/1563369236?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1563369236&amp;theme=light" id="embedPlayer" style="border:0;border-radius:12px;width:100%;height:324px;max-width:660px" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write"></iframe>
 <br/>
 
 「私を構成する42枚」でよく見かけていたジャケット！
@@ -55,7 +62,7 @@ tags:
 ## 星の私 - KAIRUI
 
 <br/>
-<iframe width="75%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1955503235&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/maltine-record" title="Maltine" target="_blank" style="color: #cccccc; text-decoration: none;">Maltine</a> · <a href="https://soundcloud.com/maltine-record/sets/maru194" title="KAIRUI - 星の私" target="_blank" style="color: #cccccc; text-decoration: none;">KAIRUI - 星の私</a></div>
+<iframe width="100%" height="324" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1955503235&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/maltine-record" title="Maltine" target="_blank" style="color: #cccccc; text-decoration: none;">Maltine</a> · <a href="https://soundcloud.com/maltine-record/sets/maru194" title="KAIRUI - 星の私" target="_blank" style="color: #cccccc; text-decoration: none;">KAIRUI - 星の私</a></div>
 <br/>
 
 ついにKAIRUIさんの新譜が出た。
@@ -67,21 +74,35 @@ tags:
 パーカッションの置き方にめちゃくちゃ拘っているという印象を受けた。
 あと全体的に合唱曲っぽい！
 今は無きSoundmainのインタビューで、
-ご本人が指揮者の経験があると話していたと記憶している。
+ご本人が指揮者の経験があると話していたことを薄っすら覚えている。
 もしかしたら関係があるのかもしれない。
 
 ## call me (on momotalk) maybe - Wooden
 
 <br/>
-<iframe width="75%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1894499679&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/woodenwasreal3489" title="Wooden" target="_blank" style="color: #cccccc; text-decoration: none;">Wooden</a> · <a href="https://soundcloud.com/woodenwasreal3489/tr02-call-me-on-momotalk-maybe-441khz" title="call me (on momotalk) maybe" target="_blank" style="color: #cccccc; text-decoration: none;">call me (on momotalk) maybe</a></div>
+<iframe width="100%" height="216" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1894499679&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/woodenwasreal3489" title="Wooden" target="_blank" style="color: #cccccc; text-decoration: none;">Wooden</a> · <a href="https://soundcloud.com/woodenwasreal3489/tr02-call-me-on-momotalk-maybe-441khz" title="call me (on momotalk) maybe" target="_blank" style="color: #cccccc; text-decoration: none;">call me (on momotalk) maybe</a></div>
 <br/>
 
-"Call Me Maybe"とブルアカのOSTの"Constant Moderato"のリミックス。
+かの"Call Me Maybe"とブルアカOST "Constant Moderato"のマッシュアップ。
 レコメンドで流れてきて何の気なしに聴いていたら、サビでそうであることに気付いてドカ笑顔になった。
-こういうタイトルからこじつけにいくリミックスが大好き。
+タイトルのセンス大好き。
 
 追い打ちをかけるようにビルドアップで"Shelter"が乱入してきて、
 どうなっちゃうんだ～と思っていたらドロップでバイレファンキになって本当にドカ笑顔になった。
 全部入りすぎる。「kivotos is located in brazil」なるコメントが付いているのも良い。
+
+## そらをとぶ - Noz.
+
+<br/>
+<iframe width="336" height="189" src="https://www.youtube.com/embed/HZf7AR7QWvQ" title="Noz. - 『そらをとぶ』(Fly in the sky) / Kagamine Rin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br/>
+
+ボカロのメインストリームの一つと言うか、自分の中で「あんまり聴かない」にカテゴライズされているタイプの曲だなと思うのですが、
+なんかめっちゃ良かったです。今のところはこの曲だけが単体で刺さっている。
+
+サビまで飽きさせないために冒頭で一瞬だけラジカセ風のサビを聴かせる手法は、今の時代にとても即しているな…とぼんやり考えるのとほぼ同時に、
+『風待ちハローワールド』を思い出しました。
+
+<br/>
 
 ---
